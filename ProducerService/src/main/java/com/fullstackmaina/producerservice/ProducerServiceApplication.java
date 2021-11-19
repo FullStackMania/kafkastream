@@ -1,13 +1,13 @@
-package com.fullstackmaina.streamservice;
+package com.fullstackmaina.producerservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StreamsServiceApplication {
+public class ProducerServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StreamsServiceApplication.class, args);
+		SpringApplication.run(ProducerServiceApplication.class, args);
 	}
 
 }

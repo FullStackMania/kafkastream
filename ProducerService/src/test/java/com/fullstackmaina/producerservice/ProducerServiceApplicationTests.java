@@ -1,10 +1,10 @@
-package com.fullstackmaina.streamservice;
+package com.fullstackmaina.producerservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class StreamsServiceApplicationTests {
+class ProducerServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

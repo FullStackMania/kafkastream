@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        order-input-channel:
+          destination: user
+        order-homedelivery-output-channel:
+          destination: home-service
+        order-takeaway-output-channel:
+          destination: takeaway-service
+      kafka:
+        streams:
+          binder:
+             brokers: localhost:9092
+   
+    
+        
+
